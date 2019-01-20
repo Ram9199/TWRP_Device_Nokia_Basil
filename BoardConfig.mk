@@ -21,7 +21,7 @@
 # definition file).
 #
 
-LOCAL_PATH := device/nokia/B2N
+LOCAL_PATH := device/nokia/Basil
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
