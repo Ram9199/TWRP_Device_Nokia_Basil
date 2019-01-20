@@ -61,7 +61,7 @@ TARGET_RECOVERY_WIPE := \
 
 # ROM fstab
 PRODUCT_COPY_FILES += \
-  device/nokia/basil/rootdir/root/fstab.qcom:root/fstab.qcom
+  device/nokia/Basil/rootdir/root/fstab.qcom:root/fstab.qcom
 
 # OEM Unlock reporting
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
