@@ -130,9 +130,9 @@ TARGET_RECOVERY_DEVICE_MODULES += android.hardware.boot@1.0
 #TW_RECOVERY_ADDITIONAL_RELINK_FILES := ${OUT}/system/lib64/android.hardware.boot@1.0.so
 
 # Encryption support
-TW_INCLUDE_CRYPTO := true
-TARGET_HW_DISK_ENCRYPTION := true
-TW_INCLUDE_FBE := true
+#TW_INCLUDE_CRYPTO := true
+#TARGET_HW_DISK_ENCRYPTION := true
+#TW_INCLUDE_FBE := true
 
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
