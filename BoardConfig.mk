@@ -127,7 +127,7 @@ TW_SCREEN_BLANK_ON_BOOT := true
 BOARD_HAS_REMOVABLE_STORAGE := true
 TW_INCLUDE_FB2PNG := true
 TARGET_RECOVERY_DEVICE_MODULES += android.hardware.boot@1.0
-TW_RECOVERY_ADDITIONAL_RELINK_FILES := ${OUT}/system/lib64/android.hardware.boot@1.0.so
+#TW_RECOVERY_ADDITIONAL_RELINK_FILES := ${OUT}/system/lib64/android.hardware.boot@1.0.so
 
 # Encryption support
 TW_INCLUDE_CRYPTO := true
