@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Basil.mk
+    $(LOCAL_DIR)/omni_basil.mk

@@ -21,7 +21,7 @@
 # definition file).
 #
 
-LOCAL_PATH := device/nokia/Basil
+LOCAL_PATH := device/nokia/basil
 ALLOW_MISSING_DEPENDENCIES :=true
 
 # Bootloader
