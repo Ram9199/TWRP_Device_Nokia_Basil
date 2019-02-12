@@ -25,6 +25,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
+# Inherit from hardware-specific part of the product configuration
+$(call inherit-product, device/nokia/basil/basil.mk)
+
 # A/B updater
 AB_OTA_UPDATER := true
 
@@ -86,3 +89,9 @@ PRODUCT_NAME := omni_basil
 PRODUCT_BRAND := Nokia
 PRODUCT_MODEL := 7 Plus
 PRODUCT_MANUFACTURER := Nokia
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=Nokia7Plus \
+    BUILD_PRODUCT=Nokia7Plus \
+    TARGET_DEVICE=Nokia7Plus
+
