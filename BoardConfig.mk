@@ -122,8 +122,6 @@ BOARD_HAS_REMOVABLE_STORAGE := true
 #TW_INCLUDE_FB2PNG := true
 TARGET_RECOVERY_DEVICE_MODULES += android.hardware.boot@1.0
 TW_RECOVERY_ADDITIONAL_RELINK_FILES := ${OUT}/system/lib64/android.hardware.boot@1.0.so
-# MTP seems to cause a kernel panic, at least with some kernels, so disable it for now
-TW_EXCLUDE_MTP := true
 TW_NO_SCREEN_BLANK := true
 
 # Extras
