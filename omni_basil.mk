@@ -62,10 +62,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 TARGET_RECOVERY_WIPE := \
     device/nokia/basil/recovery/root/etc/recovery.wipe
 
-# ROM fstab
-PRODUCT_COPY_FILES += \
-  device/nokia/basil/rootdir/root/fstab.qcom:root/fstab.qcom
-
 # OEM Unlock reporting
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.oem_unlock_supported=1
@@ -82,7 +78,7 @@ ifdef TZDATAPATH
 PRODUCT_COPY_FILES += \
     $(TZDATAPATH)/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 endif
-	
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := basil
 PRODUCT_NAME := omni_basil

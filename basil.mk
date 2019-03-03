@@ -9,7 +9,4 @@ LOCAL_PATH := device/nokia/basil
 #    librecovery_updater_msm \
 #    libsparse
 
-#PRODUCT_PACKAGES += \
-#    update_engine_sideload
-
 
